@@ -1,0 +1,30 @@
+name: teamproject
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.3.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^6.1.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+    
+
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/꾸로.png
+
+  fonts:
+    - family: saum
+      fonts:
+        - asset: assets/강원교육새음.ttf
+        - weight: 500 
